@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout Survey</title>
+    <link rel="stylesheet" href="./css.css" />
+  </head>
+  <body>
+    <!-- Banner Section -->
+    <div class="banner">
+      <img src="./Images/banner.jpeg" alt="logo" />
+      <h1>Workout Survey</h1>
+    </div>
+
+    <!-- Background Image -->
+    <img src="" alt="background image" class="background-image" />
+
+    <!-- Checkbox start -->
+    <div id="checkbox" class="form">
+      <h2>1. What Are Your Main Fitness/Health Goals for 2021?</h2>
+      <p>(Select All That Apply)</p>
+      <div>
+        <input type="checkbox" id="fat-loss" name="fat-loss" checked />
+        <label for="fat-loss">Fat Loss</label>
+      </div>
+      <div>
+        <input type="checkbox" id="gain-muscle" name="gain-muscle" />
+        <label for="gain-muscle">Gain Muscle</label>
+      </div>
+      <div>
+        <input type="checkbox" id="health" name="health" />
+        <label for="health">Improve Health and Well Being</label>
+      </div>
+      <div>
+        <input type="checkbox" id="strength" name="strength" />
+        <label for="strength">To Become Stronger</label>
+      </div>
+    </div>
+    <!-- Checkbox End -->
+    <br />
+    <!-- Radio start -->
+    <div id="radio-button" class="form">
+      <h2>2. What Do You Prefer For Your Workouts?</h2>
+      <p>(Only Choose One</p>
+      <div>
+        <input
+          type="radio"
+          id="Bodyweight"
+          name="workouts"
+          value="Bodyweight"
+          checked
+        />
+        <label for="Bodyweight">Body Weight</label>
+      </div>
+      <div>
+        <input
+          type="radio"
+          id="free-weights"
+          name="workouts"
+          value="free-weights"
+        />
+        <label for="free-weights">Free Weights</label>
+      </div>
+      <div>
+        <input type="radio" id="machines" name="workouts" value="machines" />
+        <label for="machines">Machines</label>
+      </div>
+      <div>
+        <input type="radio" id="running" name="workouts" value="running" />
+        <label for="running">Running</label>
+      </div>
+    </div>
+    <!-- Radio End -->
+    <!-- Text Begin -->
+    <div id="text-form" class="form">
+      <h2>3. Describe Your Perfect Workout</h2>
+      <p>(be specific)</p>
+
+      <textarea
+        name="description"
+        id="description"
+        cols="80"
+        rows="20"
+        placeholder="Type here..."
+      ></textarea>
+    </div>
+    <!-- Text End -->
+    <!-- footer start -->
+    <footer id="footer">
+      <p>Workout Survey &copy;2021</p>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
