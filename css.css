@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Images/background.jpeg);
+}
+
+/* Banner Section */
+.banner {
+  background: rgb(58, 56, 56);
+  color: white;
+  height: 100px;
+}
+
+.banner h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* background imag */
+
+/* Form Section */
+
+.form {
+  background: hsla(14, 91%, 70%, 0.986);
+  color: white;
+  text-align: center;
+  margin: 50px 300px;
+  padding: 20px 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+#footer {
+  background: rgb(58, 56, 56);
+  color: white;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
